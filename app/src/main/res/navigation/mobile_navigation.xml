@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/moblie_navigation"
+    app:startDestination="@id/menuFragment">
+    <activity
+        android:id="@+id/gameActivity"
+        android:name="ja.zebologowememory.game.GameActivity"
+        android:label="activity_game"
+        tools:layout="@layout/game_activity" />
+    <fragment
+        android:id="@+id/menuFragment"
+        android:name="ja.zebologowememory.menu.MenuFragment"
+        android:label="menu_fragment"
+        tools:layout="@layout/menu_fragment" >
+        <action
+            android:id="@+id/action_menuFragment_to_gameActivity"
+            app:destination="@id/gameActivity" />
+        <action
+            android:id="@+id/action_menuFragment_to_highScoresFragment"
+            app:destination="@id/highScoresFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/highScoresFragment"
+        android:name="ja.zebologowememory.highscores.HighScoresFragment"
+        android:label="HighScoresFragment" >
+        <action
+            android:id="@+id/action_highScoresFragment_to_menuFragment"
+            app:destination="@id/menuFragment" />
+    </fragment>
+</navigation>

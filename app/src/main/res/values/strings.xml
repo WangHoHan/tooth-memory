@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Zębologowe Memory</string>
+    <string name="bottom_nav">Zębologowe Memory</string>
+    <string name="czas">Czas: 00:00</string>
+    <string name="ruchy">Ruchy: 0</string>
+    <string name="powrot">Powrót</string>
+    <string name="usunwyniki">Usuń wyniki</string>
+    <string name="graj">Graj</string>
+    <string name="tabelawynikow">Tabela wyników</string>
+    <string name="wyjscie">Wyjście</string>
+    <string name="high_scores_table">Tabela Wyników</string>
+    <string name="punkty">Punkty:</string>
+    <string name="data">Data:</string>
+    <string name="memory">MEMORY</string>
+    <string name="tomaszadamczyk">Tomasz Adamczyk</string>
+</resources>

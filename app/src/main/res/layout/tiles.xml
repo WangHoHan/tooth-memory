@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:weightSum="4"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/tile00"
+            android:clickable="true"
+            android:layout_weight="1"
+            android:scaleType="centerInside"
+            android:src="@drawable/questionmark"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="7dp"/>
+
+        <ImageView
+            android:id="@+id/tile01"
+            android:clickable="true"
+            android:layout_weight="1"
+            android:scaleType="centerInside"
+            android:src="@drawable/questionmark"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="7dp"/>
+
+        <ImageView
+            android:id="@+id/tile02"
+            android:clickable="true"
+            android:layout_weight="1"
+            android:scaleType="centerInside"
+            android:src="@drawable/questionmark"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="7dp"/>
+
+        <ImageView
+            android:id="@+id/tile03"
+            android:clickable="true"
+            android:layout_weight="1"
+            android:scaleType="centerInside"
+            android:src="@drawable/questionmark"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="7dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:weightSum="4"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/tile10"
+            android:clickable="true"
+            android:layout_weight="1"
+            android:scaleType="centerInside"
+            android:src="@drawable/questionmark"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="7dp"/>
+
+        <ImageView
+            android:id="@+id/tile11"
+            android:clickable="true"
+            android:layout_weight="1"
+            android:scaleType="centerInside"
+            android:src="@drawable/questionmark"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="7dp"/>
+
+        <ImageView
+            android:id="@+id/tile12"
+            android:clickable="true"
+            android:layout_weight="1"
+            android:scaleType="centerInside"
+            android:src="@drawable/questionmark"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="7dp"/>
+
+        <ImageView
+            android:id="@+id/tile13"
+            android:clickable="true"
+            android:layout_weight="1"
+            android:scaleType="centerInside"
+            android:src="@drawable/questionmark"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="7dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:weightSum="4"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/tile20"
+            android:clickable="true"
+            android:layout_weight="1"
+            android:scaleType="centerInside"
+            android:src="@drawable/questionmark"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="7dp"/>
+
+        <ImageView
+            android:id="@+id/tile21"
+            android:clickable="true"
+            android:layout_weight="1"
+            android:scaleType="centerInside"
+            android:src="@drawable/questionmark"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="7dp"/>
+
+        <ImageView
+            android:id="@+id/tile22"
+            android:clickable="true"
+            android:layout_weight="1"
+            android:scaleType="centerInside"
+            android:src="@drawable/questionmark"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="7dp"/>
+
+        <ImageView
+            android:id="@+id/tile23"
+            android:clickable="true"
+            android:layout_weight="1"
+            android:scaleType="centerInside"
+            android:src="@drawable/questionmark"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="7dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:weightSum="4"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/tile30"
+            android:clickable="true"
+            android:layout_weight="1"
+            android:scaleType="centerInside"
+            android:src="@drawable/questionmark"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="7dp"/>
+
+        <ImageView
+            android:id="@+id/tile31"
+            android:clickable="true"
+            android:layout_weight="1"
+            android:scaleType="centerInside"
+            android:src="@drawable/questionmark"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="7dp"/>
+
+        <ImageView
+            android:id="@+id/tile32"
+            android:clickable="true"
+            android:layout_weight="1"
+            android:scaleType="centerInside"
+            android:src="@drawable/questionmark"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="7dp"/>
+
+        <ImageView
+            android:id="@+id/tile33"
+            android:clickable="true"
+            android:layout_weight="1"
+            android:scaleType="centerInside"
+            android:src="@drawable/questionmark"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="7dp"/>
+
+    </LinearLayout>
+
+</LinearLayout>
